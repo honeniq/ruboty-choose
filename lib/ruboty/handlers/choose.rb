@@ -6,7 +6,7 @@ module Ruboty
       NAMESPACE = "choose"
       on(
         /choose\ (?<list>.+?)\z/,
-        description: 'aasdfa',
+        description: 'Choose one from given words. Words must be separated by space. (ex. \'robuty choose apple orange grape\')',
         name: 'choose'
       )
 
